@@ -1,0 +1,57 @@
+*{
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+       
+}
+
+
+
+body {        
+    background-image: url(AOFimage.jpg);
+    background-attachment: fixed;
+    background-size: cover;       
+    }
+
+
+.text{display: flex;
+    justify-content: center; margin: 12.5%;
+        font-size: 1.5rem;  color: #ffffff; opacity: 90%; width: fit-content; border-radius: 25px; font-size: 2rem; ;}
+
+.pic2{display: flex;
+justify-content: center; 
+clip-path: circle();
+margin-top: 110px;
+}
+
+.contactbar{justify-content: center;}
+.contactbar ul {color: white;}
+.contactbar li a{text-decoration: none; color: #ffffff; padding: 10px; display: block; font-size: 1rem;  }
+.contact li a{gap: 8px;}
+
+
+.navbar{display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgb(119, 119, 119); 
+    color: #ffffff; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+margin-bottom: 5px;}
+
+
+.navbar li a {text-decoration: none; color: #ffffff; padding: 1rem; display: block; font-size: 1rem;}
+.navbar ul{ margin: 0; padding: 0; display: flex;}
+.nav-links li:hover{ background-color: #555;}
+.webtitle{
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+.gallery{display: flex;
+    justify-content: center;}
+
+.gallpics{ display: flex; flex-direction: column; gap: 8px;}
+
+
+
